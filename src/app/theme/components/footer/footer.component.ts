@@ -8,9 +8,9 @@ import { emailValidator } from '../../utils/app-validators';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  public lat: number = 40.678178;
-  public lng: number = -73.944158;
-  public zoom: number = 12; 
+  public lat: number =51.7025341469224;
+  public lng: number = -0.0347679119265938;
+  public zoom: number = 17; 
   public mapStyles:any = [
     {
         "featureType": "all",

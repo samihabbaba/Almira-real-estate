@@ -20,9 +20,9 @@ export class SubmitPropertyComponent implements OnInit {
   public cities = [];
   public neighborhoods = [];
   public streets = [];
-  public lat: number = 40.678178;
-  public lng: number = -73.944158;
-  public zoom: number = 12;  
+  public lat: number = 51.7025341469224;
+  public lng: number = -0.0347679119265938;
+  public zoom: number = 16;  
 
   constructor(public appService:AppService, 
               private fb: UntypedFormBuilder, 

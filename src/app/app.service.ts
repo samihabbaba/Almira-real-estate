@@ -573,7 +573,7 @@ export class AppService {
             desc: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus.',            
             organization: 'HouseKey',
             email: 'andy.w@housekey.com',
-            phone: '(212) 457-2308',
+            phone: '(+44) 7375 110555',
             social: {
               facebook: '',
               twitter: '',

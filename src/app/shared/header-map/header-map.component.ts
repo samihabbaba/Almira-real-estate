@@ -12,7 +12,7 @@ export class HeaderMapComponent implements OnInit {
   @Input('locations') locations: Array<any> = [];
   @Input('contentOffsetToTop') contentOffsetToTop; 
   @Input('fullscreen') fullscreen: boolean = false;
-  public lat: number = 40.678178;
+  public lat: number = 51.7025341469224;
   public lng: number = -93.944158; 
   public zoom: number = 5; 
   public markerAnimation = 'BOUNCE';  
@@ -293,7 +293,7 @@ export class HeaderMapComponent implements OnInit {
       if(!changes.locations.isFirstChange()){     
         //reset map position on filter
         this.zoom = 5;
-        this.lat = 40.678178;
+        this.lat = 51.7025341469224;
         this.lng = -93.944158;
         this.markerAnimation = 'BOUNCE';  
         setTimeout(() => {
