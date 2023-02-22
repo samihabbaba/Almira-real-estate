@@ -16,7 +16,7 @@
         "formattedAddress" : "611 W 180th St, New York, NY 10033, USA",
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Swimming Pool", "TV Cable", "WiFi"],
         "featured": false, 
-        "priceDollar": {
+        "pricePound": {
             "sale": 1300000,
             "rent": null
         },
@@ -145,7 +145,7 @@
         "formattedAddress" : "3rd Ave & James St, Seattle, WA 98104, USA", 
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
         "featured": false, 
-        "priceDollar": {
+        "pricePound": {
             "sale": 2550000,
             "rent": null
         },
@@ -284,7 +284,7 @@
         "formattedAddress": "1400 W 44th St, Chicago, IL 60609, USA", 
         "features": ["Refrigerator", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
         "featured": true, 
-        "priceDollar": {
+        "pricePound": {
             "sale": null,
             "rent": 9000
         },
@@ -413,7 +413,7 @@
         "formattedAddress": "230 W 55th St, New York, NY 10019, USA", 
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
         "featured": false, 
-        "priceDollar": {
+        "pricePound": {
             "sale": 2500000,
             "rent": null
         },

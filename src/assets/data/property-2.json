@@ -15,7 +15,7 @@
     "formattedAddress" : "1052 W 91st St, Los Angeles, CA 90044, USA",
     "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Sauna", "TV Cable", "WiFi"], 
     "featured": true,
-    "priceDollar": {
+    "pricePound": {
         "sale": null,
         "rent": 6500
     },

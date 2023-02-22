@@ -15,7 +15,7 @@
     "formattedAddress": "5921 17th Ave S, Seattle, WA 98108, USA", 
     "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
     "featured": true, 
-    "priceDollar": {
+    "pricePound": {
         "sale": 4500000,
         "rent": null
     },

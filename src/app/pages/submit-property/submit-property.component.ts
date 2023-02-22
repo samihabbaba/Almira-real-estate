@@ -41,7 +41,7 @@ export class SubmitPropertyComponent implements OnInit {
       basic: this.fb.group({
         title: [null, Validators.required],
         desc: null,
-        priceDollar: null,
+        pricePound: null,
         priceEuro: null,
         propertyType: [null, Validators.required],
         propertyStatus: null, 

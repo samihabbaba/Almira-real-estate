@@ -15,7 +15,7 @@
     "formattedAddress": "1627 Vine St, Los Angeles, CA 90028, USA", 
     "features": ["Air Conditioning", "Refrigerator", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
     "featured": true, 
-    "priceDollar": {
+    "pricePound": {
         "sale": null,
         "rent": 5600
     },

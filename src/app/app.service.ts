@@ -251,13 +251,13 @@ export class AppService {
       }
 
       if(params.price){
-        if(this.appSettings.settings.currency == 'USD'){          
+        if(this.appSettings.settings.currency == 'GBP'){          
           if(params.price.from){
             data = data.filter(property => {
-              if(property.priceDollar.sale && property.priceDollar.sale >= params.price.from ){
+              if(property.pricePound.sale && property.pricePound.sale >= params.price.from ){
                 return true;
               }
-              if(property.priceDollar.rent && property.priceDollar.rent >= params.price.from ){
+              if(property.pricePound.rent && property.pricePound.rent >= params.price.from ){
                 return true;
               } 
               return false;
@@ -265,10 +265,10 @@ export class AppService {
           }
           if(params.price.to){
             data = data.filter(property => {
-              if(property.priceDollar.sale && property.priceDollar.sale <= params.price.to){
+              if(property.pricePound.sale && property.pricePound.sale <= params.price.to){
                 return true;
               }
-              if(property.priceDollar.rent && property.priceDollar.rent <= params.price.to){
+              if(property.pricePound.rent && property.pricePound.rent <= params.price.to){
                 return true;
               } 
               return false;
@@ -443,12 +443,12 @@ export class AppService {
           });
           break;
         case 'Price (Low to High)':
-          if(this.appSettings.settings.currency == 'USD'){
+          if(this.appSettings.settings.currency == 'GBP'){
             data = data.sort((a,b) => {
-              if((a.priceDollar.sale || a.priceDollar.rent) > (b.priceDollar.sale || b.priceDollar.rent)){
+              if((a.pricePound.sale || a.pricePound.rent) > (b.pricePound.sale || b.pricePound.rent)){
                 return 1;
               }
-              if((a.priceDollar.sale || a.priceDollar.rent) < (b.priceDollar.sale || b.priceDollar.rent)){
+              if((a.pricePound.sale || a.pricePound.rent) < (b.pricePound.sale || b.pricePound.rent)){
                 return -1;
               }
               return 0;  
@@ -467,12 +467,12 @@ export class AppService {
           }
           break;
         case 'Price (High to Low)':
-          if(this.appSettings.settings.currency == 'USD'){
+          if(this.appSettings.settings.currency == 'GBP'){
             data = data.sort((a,b) => {
-              if((a.priceDollar.sale || a.priceDollar.rent) < (b.priceDollar.sale || b.priceDollar.rent)){
+              if((a.pricePound.sale || a.pricePound.rent) < (b.pricePound.sale || b.pricePound.rent)){
                 return 1;
               }
-              if((a.priceDollar.sale || a.priceDollar.rent) > (b.priceDollar.sale || b.priceDollar.rent)){
+              if((a.pricePound.sale || a.pricePound.rent) > (b.pricePound.sale || b.pricePound.rent)){
                 return -1;
               }
               return 0;  

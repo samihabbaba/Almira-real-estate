@@ -134,9 +134,9 @@
                         </p>
                     </div>
                     <div fxLayout="column" fxLayoutAlign.xs="center center" class="mx-3">                      
-                        <h2 *ngIf="settings.currency == 'USD'" class="primary-color price">
-                            <span *ngIf="property?.priceDollar.sale">{{property?.priceDollar.sale | currency : 'USD' : 'symbol' : '1.0'}}</span>
-                            <span *ngIf="property?.priceDollar.rent">{{property?.priceDollar.rent | currency : 'USD' : 'symbol' : '1.0'}} /month</span>
+                        <h2 *ngIf="settings.currency == 'GBP'" class="primary-color price">
+                            <span *ngIf="property?.pricePound.sale">{{property?.pricePound.sale | currency : 'GBP' : 'symbol' : '1.0'}}</span>
+                            <span *ngIf="property?.pricePound.rent">{{property?.pricePound.rent | currency : 'GBP' : 'symbol' : '1.0'}} /month</span>
                         </h2>
                         <h2 *ngIf="settings.currency == 'EUR'" class="primary-color price">
                             <span *ngIf="property?.priceEuro.sale">{{property?.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>

@@ -15,7 +15,7 @@
     "formattedAddress" : "611 W 180th St, New York, NY 10033, USA",
     "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Swimming Pool", "TV Cable", "WiFi"],
     "featured": true, 
-    "priceDollar": {
+    "pricePound": {
         "sale": 1300000,
         "rent": null
     },

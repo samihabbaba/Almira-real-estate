@@ -15,7 +15,7 @@
     "formattedAddress" : "3rd Ave & James St, Seattle, WA 98104, USA", 
     "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
     "featured": false, 
-    "priceDollar": {
+    "pricePound": {
         "sale": 2550000,
         "rent": null
     },

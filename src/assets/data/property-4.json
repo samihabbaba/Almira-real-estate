@@ -15,7 +15,7 @@
     "formattedAddress": "55 W Jackson Blvd, Chicago, IL 60604, USA", 
     "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
     "featured": true, 
-    "priceDollar": {
+    "pricePound": {
         "sale": 1450000,
         "rent": null
     },

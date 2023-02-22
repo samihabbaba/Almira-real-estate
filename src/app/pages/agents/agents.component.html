@@ -10,9 +10,9 @@
     <div fxLayout="row wrap" class="agents-wrapper">
       <div *ngFor="let agent of agents" fxFlex="100" fxFlex.gt-md="25" fxFlex.md="33.3" fxFlex.sm="50" class="p-3">
           <mat-card>
-              <a [routerLink]="['/agents', agent.id]" class="agent-img">
+              <div class="agent-img">
                 <img mat-card-image [src]="agent.image" [alt]="agent.fullName"> 
-              </a>
+              </div>
               <!-- <img mat-card-image [src]="agent.image" [alt]="agent.fullName">  -->
               <mat-card-content>
                   <h2 class="fw-600">{{agent.fullName}}</h2>
@@ -51,9 +51,9 @@
                         </svg>
                       </a>  
                   </div>
-                  <div>
+                  <!-- <div>
                       <a [routerLink]="['/agents', agent.id]" mat-button color="primary" class="uppercase">View Profile</a>
-                  </div> 
+                  </div>  -->
               </mat-card-actions>                              
           </mat-card>
       </div>

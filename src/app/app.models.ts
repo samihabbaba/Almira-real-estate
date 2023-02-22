@@ -12,7 +12,7 @@ export class Property {
                 public formattedAddress: string,
                 public features: string[],
                 public featured: boolean,
-                public priceDollar: Price,
+                public pricePound: Price,
                 public priceEuro: Price,
                 public bedrooms: number,
                 public bathrooms: number,

@@ -18,9 +18,9 @@
                     <span class="px-1">{{currentSlide.location}}</span>
                 </p> 
                 <button mat-raised-button color="primary" class="price">                        
-                    <span *ngIf="settings.currency == 'USD'" class="price">
-                        <span *ngIf="currentSlide.priceDollar.sale">{{currentSlide.priceDollar.sale | currency : 'USD' : 'symbol' : '1.0'}}</span>
-                        <span *ngIf="currentSlide.priceDollar.rent">{{currentSlide.priceDollar.rent | currency : 'USD' : 'symbol' : '1.0'}} /month</span>
+                    <span *ngIf="settings.currency == 'GBP'" class="price">
+                        <span *ngIf="currentSlide.pricePound.sale">{{currentSlide.pricePound.sale | currency : 'GBP' : 'symbol' : '1.0'}}</span>
+                        <span *ngIf="currentSlide.pricePound.rent">{{currentSlide.pricePound.rent | currency : 'GBP' : 'symbol' : '1.0'}} /month</span>
                     </span>
                     <span *ngIf="settings.currency == 'EUR'" class="price">
                         <span *ngIf="currentSlide.priceEuro.sale">{{currentSlide.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>

@@ -2,7 +2,7 @@
     { 
         "title": "Modern and quirky flat", 
         "location": "611 W 180th St, New York, NY 10033, USA",         
-        "priceDollar": {
+        "pricePound": {
             "sale": 1300000,
             "rent": null
         },
@@ -15,7 +15,7 @@
     { 
         "title": "Comfortable family house", 
         "location": "3rd Ave & James St, Seattle, WA 98104, USA", 
-        "priceDollar": {
+        "pricePound": {
             "sale": 2550000,
             "rent": null
         },
@@ -28,7 +28,7 @@
     { 
         "title": "Luxury office space", 
         "location": "230 W 55th St, New York, NY 10019, USA",
-        "priceDollar": {
+        "pricePound": {
             "sale": 2500000,
             "rent": null
         },
@@ -41,7 +41,7 @@
     { 
         "title": "Centrally located apartment", 
         "location": "1627 Vine St, Los Angeles, CA 90028, USA", 
-        "priceDollar": {
+        "pricePound": {
             "sale": null,
             "rent": 5600
         },

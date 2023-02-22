@@ -38,7 +38,7 @@ export class AppSettings {
         false,       // true = rtl, false = ltr
         1,           //  1, 2  or 3
         false,       //  true = search on button click
-        'USD',       // USD, EUR
+        'GBP',       // GBP, EUR
 
         //NOTE:  don't change additional options values, they used for theme performance
         false,

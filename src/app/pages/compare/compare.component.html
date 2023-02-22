@@ -36,9 +36,9 @@
                     </p>
                     <mat-chip-list>
                         <mat-chip color="primary" selected="true" class="w-100">
-                            <h3 *ngIf="settings.currency == 'USD'" class="w-100 text-center">
-                                <span *ngIf="property.priceDollar.sale">{{property.priceDollar.sale | currency : 'USD' : 'symbol' : '1.0'}}</span>
-                                <span *ngIf="property.priceDollar.rent">{{property.priceDollar.rent | currency : 'USD' : 'symbol' : '1.0'}} /month</span>
+                            <h3 *ngIf="settings.currency == 'GBP'" class="w-100 text-center">
+                                <span *ngIf="property.pricePound.sale">{{property.pricePound.sale | currency : 'GBP' : 'symbol' : '1.0'}}</span>
+                                <span *ngIf="property.pricePound.rent">{{property.pricePound.rent | currency : 'GBP' : 'symbol' : '1.0'}} /month</span>
                             </h3>
                             <h3 *ngIf="settings.currency == 'EUR'" class="w-100 text-center">
                                 <span *ngIf="property.priceEuro.sale">{{property.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>

@@ -15,7 +15,7 @@
     "formattedAddress": "1400 W 44th St, Chicago, IL 60609, USA", 
     "features": ["Refrigerator", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
     "featured": true, 
-    "priceDollar": {
+    "pricePound": {
         "sale": null,
         "rent": 9000
     },

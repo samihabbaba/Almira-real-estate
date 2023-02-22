@@ -16,7 +16,7 @@
         "formattedAddress" : "1052 W 91st St, Los Angeles, CA 90044, USA",
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Sauna", "TV Cable", "WiFi"], 
         "featured": true,
-        "priceDollar": {
+        "pricePound": {
             "sale": null,
             "rent": 6500
         },
@@ -155,7 +155,7 @@
         "formattedAddress": "55 W Jackson Blvd, Chicago, IL 60604, USA", 
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
         "featured": true, 
-        "priceDollar": {
+        "pricePound": {
             "sale": 1450000,
             "rent": null
         },
@@ -289,7 +289,7 @@
         "formattedAddress": "5921 17th Ave S, Seattle, WA 98108, USA", 
         "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
         "featured": true, 
-        "priceDollar": {
+        "pricePound": {
             "sale": 4500000,
             "rent": null
         },
@@ -418,7 +418,7 @@
         "formattedAddress": "1400 W 44th St, Chicago, IL 60609, USA", 
         "features": ["Refrigerator", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
         "featured": true, 
-        "priceDollar": {
+        "pricePound": {
             "sale": null,
             "rent": 9000
         },
@@ -547,7 +547,7 @@
         "formattedAddress": "1627 Vine St, Los Angeles, CA 90028, USA", 
         "features": ["Air Conditioning", "Refrigerator", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
         "featured": true, 
-        "priceDollar": {
+        "pricePound": {
             "sale": null,
             "rent": 5600
         },
