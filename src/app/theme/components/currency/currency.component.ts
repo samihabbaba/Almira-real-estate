@@ -7,7 +7,7 @@ import { Settings, AppSettings } from '../../../app.settings';
   styleUrls: ['./currency.component.scss']
 })
 export class CurrencyComponent implements OnInit {
-  public currencies = ['GBP', 'EUR'];
+  public currencies = ['GBP'];
   public currency:any; 
   public settings: Settings;
   constructor(public appSettings:AppSettings) {

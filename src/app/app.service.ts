@@ -275,31 +275,31 @@ export class AppService {
             });          
           }
         }
-        if(this.appSettings.settings.currency == 'EUR'){
-          if(params.price.from){
-            data = data.filter(property => {
-              if(property.priceEuro.sale && property.priceEuro.sale >= params.price.from ){
-                return true;
-              }
-              if(property.priceEuro.rent && property.priceEuro.rent >= params.price.from ){
-                return true;
-              } 
-              return false;
-            });
+        // if(this.appSettings.settings.currency == 'EUR'){
+        //   if(params.price.from){
+        //     data = data.filter(property => {
+        //       if(property.priceEuro.sale && property.priceEuro.sale >= params.price.from ){
+        //         return true;
+        //       }
+        //       if(property.priceEuro.rent && property.priceEuro.rent >= params.price.from ){
+        //         return true;
+        //       } 
+        //       return false;
+        //     });
 
-          }
-          if(params.price.to){
-            data = data.filter(property => {
-              if(property.priceEuro.sale && property.priceEuro.sale <= params.price.to){
-                return true;
-              }
-              if(property.priceEuro.rent && property.priceEuro.rent <= params.price.to){
-                return true;
-              } 
-              return false;
-            });
-          }
-        }        
+        //   }
+        //   if(params.price.to){
+        //     data = data.filter(property => {
+        //       if(property.priceEuro.sale && property.priceEuro.sale <= params.price.to){
+        //         return true;
+        //       }
+        //       if(property.priceEuro.rent && property.priceEuro.rent <= params.price.to){
+        //         return true;
+        //       } 
+        //       return false;
+        //     });
+        //   }
+        // }        
       }  
 
       if(params.city){
@@ -454,17 +454,17 @@ export class AppService {
               return 0;  
             }) 
           }
-          if(this.appSettings.settings.currency == 'EUR'){
-            data = data.sort((a,b) => {
-              if((a.priceEuro.sale || a.priceEuro.rent) > (b.priceEuro.sale || b.v.rent)){
-                return 1;
-              }
-              if((a.priceEuro.sale || a.priceEuro.rent) < (b.priceEuro.sale || b.priceEuro.rent)){
-                return -1;
-              }
-              return 0;  
-            }) 
-          }
+          // if(this.appSettings.settings.currency == 'EUR'){
+          //   data = data.sort((a,b) => {
+          //     if((a.priceEuro.sale || a.priceEuro.rent) > (b.priceEuro.sale || b.v.rent)){
+          //       return 1;
+          //     }
+          //     if((a.priceEuro.sale || a.priceEuro.rent) < (b.priceEuro.sale || b.priceEuro.rent)){
+          //       return -1;
+          //     }
+          //     return 0;  
+          //   }) 
+          // }
           break;
         case 'Price (High to Low)':
           if(this.appSettings.settings.currency == 'GBP'){
@@ -478,17 +478,17 @@ export class AppService {
               return 0;  
             }) 
           }
-          if(this.appSettings.settings.currency == 'EUR'){
-            data = data.sort((a,b) => {
-              if((a.priceEuro.sale || a.priceEuro.rent) < (b.priceEuro.sale || b.v.rent)){
-                return 1;
-              }
-              if((a.priceEuro.sale || a.priceEuro.rent) > (b.priceEuro.sale || b.priceEuro.rent)){
-                return -1;
-              }
-              return 0;  
-            }) 
-          }
+          // if(this.appSettings.settings.currency == 'EUR'){
+          //   data = data.sort((a,b) => {
+          //     if((a.priceEuro.sale || a.priceEuro.rent) < (b.priceEuro.sale || b.v.rent)){
+          //       return 1;
+          //     }
+          //     if((a.priceEuro.sale || a.priceEuro.rent) > (b.priceEuro.sale || b.priceEuro.rent)){
+          //       return -1;
+          //     }
+          //     return 0;  
+          //   }) 
+          // }
           break;
         default:
           break;
@@ -646,19 +646,18 @@ export class AppService {
 
   public getClients(){
     return [  
-        { name: 'aloha', image: 'assets/images/clients/aloha.png' },
-        { name: 'dream', image: 'assets/images/clients/dream.png' },  
-        { name: 'congrats', image: 'assets/images/clients/congrats.png' },
-        { name: 'best', image: 'assets/images/clients/best.png' },
-        { name: 'original', image: 'assets/images/clients/original.png' },
-        { name: 'retro', image: 'assets/images/clients/retro.png' },
-        { name: 'king', image: 'assets/images/clients/king.png' },
-        { name: 'love', image: 'assets/images/clients/love.png' },
-        { name: 'the', image: 'assets/images/clients/the.png' },
-        { name: 'easter', image: 'assets/images/clients/easter.png' },
-        { name: 'with', image: 'assets/images/clients/with.png' },
-        { name: 'special', image: 'assets/images/clients/special.png' },
-        { name: 'bravo', image: 'assets/images/clients/bravo.png' }
+        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
+        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
+        { name: 'akol', image: 'assets/images/clients/akol.png' },
+        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
+        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
+        { name: 'akol', image: 'assets/images/clients/akol.png' },
+        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
+        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
+        { name: 'akol', image: 'assets/images/clients/akol.png' },
+        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
+        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
+        { name: 'akol', image: 'assets/images/clients/akol.png' },
     ];
   }
 

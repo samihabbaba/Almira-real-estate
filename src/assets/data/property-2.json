@@ -3,15 +3,12 @@
     "title": "Four Seasons Life II 2+1", 
     "desc": "Our New Project, Four Seasons Life II offers investors the untouched beauty of the Mediterranean in perfect harmony, with a visionary perspective that brings happiness and peace.",
     "propertyType": "Flat",
-    "propertyStatus": "For Sale",
+    "propertyStatus": ["For Sale"],
     "city": "iskele",
     "zipCode": "90044",
-    "neighborhood": "Kalecik",
+    "neighborhood": ["Kalecik"],
     "street":"Kalecik Mevkii, Boğaz, İskele",
-    "location" : {
-        "lat": 35.251014,
-        "lng": 33.900354
-    },
+    "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
     "formattedAddress" : "Kalecik Mevkii, Boğaz, İskele",
     "featured": true,
     "pricePound": {

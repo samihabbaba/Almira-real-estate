@@ -7,11 +7,8 @@
         "propertyStatus": ["For Sale"],
         "city": "İskele",
         "zipCode": "10033",
-        "street": "Long beach",
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "street": ["Long Beach, İskele, Cyprus"],
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress" : "Long Beach, İskele, Cyprus",
       
         "featured": false, 
@@ -63,15 +60,12 @@
         "title": "La Isla Villas 4+1", 
         "desc": "La Isla Villas 4+1 Villa For Sale You can contact our experienced sales team for detailed information.",
         "propertyType": "Villa",
-        "propertyStatus": "For Sale",
+        "propertyStatus": ["For Sale"],
         "city": "İskele",
         "zipCode": "98104",
-        "neighborhood": "Ötüken",
+        "neighborhood": ["Ötüken"],
         "street": " Ötüken, İskele, Cyprus",
-        "location" : {
-            "lat": 33.954220,
-            "lng": -118.293730
-        },
+        "location" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress" : "Ötüken, İskele, Cyprus", 
         "featured": false, 
         "pricePound": {
@@ -117,132 +111,69 @@
     }, 
     {
         "id": 6,
-        "title": "Bright and sunny house", 
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
-        "propertyType": "House",
-        "propertyStatus": ["For Rent", "No Fees"],
-        "city": "Chicago",
-        "zipCode": "60609",
-        "neighborhood": ["Englewood", "Austin"],
-        "street": ["Englewood Street #2", "Austin Street #2"],
-        "location" : {
-            "lat": 41.814080,
-            "lng": -87.660410
-        },
-        "formattedAddress": "1400 W 44th St, Chicago, IL 60609, USA", 
-        "features": ["Refrigerator", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
-        "featured": true, 
+        "title": "2+1 Infinity", 
+        "desc": "14.870 m2 yeşil alan ve rekreasyon alanları dikkate alınmış ve site sakinlerinin, yeşil alanlar,  barbekü alanları, parkları, oyun alanları, spor alanları, yüzme havuzları, spa, bisiklet yolu, ve çok daha fazla olanaklardan yararlanmaları için büyük bir planlama yapılmıştır. Proje, sunrise, riverpark, mountain, river corner ve sunset olarak 5 farklı bloktan oluşmaktadır.",
+        "propertyType": "Apartment",
+        "propertyStatus": ["For Sale"],
+        "city": "İskele",
+        "zipCode": "10033",
+        "neighborhood": ["Long Beach"],
+        "street": ["Long Beach, İskele, Cyprus"],
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
+        "formattedAddress" : "Long Beach, İskele, Cyprus",
+      
+        "featured": false, 
         "pricePound": {
-            "sale": null,
-            "rent": 9000
+            "sale": 855000,
+            "rent": null
         },
-        "priceEuro": {
-            "sale": null,
-            "rent": 8000
-        },
+      
         "bedrooms": 2,
-        "bathrooms": 2,
-        "garages": 1,
+        "bathrooms": 1,
+       
         "area": {
-            "value": 1600,
-            "unit": "ft²"
+            "value": 130,
+            "unit": "m²"
         },
-        "yearBuilt": 2017,
-        "ratingsCount": 5,
-        "ratingsValue": 400,
-        "additionalFeatures": [                
-            {
-                "name": "Heat",
-                "value": "Natural Gas"
-            },
-            {
-                "name": "Roof",
-                "value": "Composition/Shingle"
-            },
-            {
-                "name": "Floors",
-                "value": "Wall-to-Wall Carpet"
-            },
-            {
-                "name": "Water",
-                "value": "District/Public"
-            },
-            {
-                "name": "Cross Streets",
-                "value": "Orangethorpe-Gilbert"
-            },
-            {
-                "name": "Windows",
-                "value": "Skylights"
-            },
-            {
-                "name": "Flat",
-                "value": "5"
-            },
-            {
-                "name": "Childroom",
-                "value": "2"
-            }
+        "yearBuilt": 2022,
+        "ratingsCount": 3,
+        "ratingsValue": 280,
+    
+        "gallery": [  {
+            "small": "assets/images/props/flat-1/1-small.jpg",
+            "medium": "assets/images/props/flat-1/1-small.jpg",
+            "big": "assets/images/props/flat-1/1-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/2-small.jpg",
+            "medium": "assets/images/props/flat-1/2-small.jpg",
+            "big": "assets/images/props/flat-1/2-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/3-small.jpg",
+            "medium": "assets/images/props/flat-1/3-small.jpg",
+            "big": "assets/images/props/flat-1/3-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/3-small.jpg",
+            "medium": "assets/images/props/flat-1/3-small.jpg",
+            "big": "assets/images/props/flat-1/3-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/4-small.jpg",
+            "medium": "assets/images/props/flat-1/4-small.jpg",
+            "big": "assets/images/props/flat-1/4-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/-small.jpg",
+            "medium": "assets/images/props/flat-1/5-small.jpg",
+            "big": "assets/images/props/flat-1/5-small.jpg"
+        }
         ],
-        "gallery": [
-            {
-                "small": "assets/images/props/house-2/1-small.jpg",
-                "medium": "assets/images/props/house-2/1-medium.jpg",
-                "big": "assets/images/props/house-2/1-big.jpg"
-            },
-            {
-                "small": "assets/images/props/house-2/2-small.jpg",
-                "medium": "assets/images/props/house-2/2-medium.jpg",
-                "big": "assets/images/props/house-2/2-big.jpg"
-            },
-            {
-                "small": "assets/images/props/house-2/3-small.jpg",
-                "medium": "assets/images/props/house-2/3-medium.jpg",
-                "big": "assets/images/props/house-2/3-big.jpg"
-            },
-            {
-                "small": "assets/images/props/house-2/4-small.jpg",
-                "medium": "assets/images/props/house-2/4-medium.jpg",
-                "big": "assets/images/props/house-2/4-big.jpg"
-            }
-        ],
-        "plans": [
-            {
-                "name": "First floor",
-                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
-                "area": {
-                    "value": 1180,
-                    "unit": "ft²"
-                },
-                "rooms": 3,
-                "baths": 1,
-                "image": "assets/images/others/plan-1.jpg"
-            },
-            {
-                "name": "Second floor",
-                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
-                "area": {
-                    "value": 1200,
-                    "unit": "ft²"
-                },
-                "rooms": 5,
-                "baths": 2,
-                "image": "assets/images/others/plan-2.jpg"
-            }
-        ],
-        "videos": [
-            {
-                "name": "Video",
-                "link": "http://themeseason.com/data/videos/video-1.mp4"
-            },
-            {
-                "name": "Video with 'ngx-embed-video' plugin",
-                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
-            }
-        ],
-        "published": "2013-11-19 18:20:00",
-        "lastUpdate": "2019-06-08 14:20:00",
-        "views": 256
+    
+        "published": "2012-08-12 17:17:30",
+        "lastUpdate": "2019-05-20 14:20:00",
+        "views": 322
     },
     {
         "id": 7,
@@ -254,10 +185,7 @@
         "zipCode": "60604",
         "neighborhood": ["Long Beach"],
         "street": ["Long Beach, İskele, Cyprus"],
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress": "Long Beach, İskele, Cyprus", 
         
         "featured": true, 

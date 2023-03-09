@@ -80,8 +80,7 @@ export class PropertyComponent implements OnInit {
 
   public getPropertyById(id){
     this.appService.getPropertyById(id).subscribe(data=>{
-      this.property = data;  
-      this.embedVideo = this.embedService.embed(this.property.videos[1].link);
+      this.property = data;  ;
       setTimeout(() => { 
         this.config.observer = true;
         this.config2.observer = true; 

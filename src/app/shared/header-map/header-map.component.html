@@ -25,10 +25,10 @@
                                     <span *ngIf="property.pricePound.sale">{{property.pricePound.sale | currency : 'GBP' : 'symbol' : '1.0'}}</span>
                                     <span *ngIf="property.pricePound.rent">{{property.pricePound.rent | currency : 'GBP' : 'symbol' : '1.0'}} /month</span>
                                 </p>
-                                <p *ngIf="settings.currency == 'EUR'" class="fw-500 my-1">
+                                <!-- <p *ngIf="settings.currency == 'EUR'" class="fw-500 my-1">
                                     <span *ngIf="property.priceEuro.sale">{{property.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>
                                     <span *ngIf="property.priceEuro.rent">{{property.priceEuro.rent | currency : 'EUR' : 'symbol' : '1.0'}} /month</span>
-                                </p>
+                                </p> -->
                             </a>
                             <div *ngIf="!property" class="p-3">
                                 <mat-spinner color="warn"></mat-spinner>

@@ -4,15 +4,12 @@
         "title": "Four Seasons Life II 2+1", 
         "desc": "Our New Project, Four Seasons Life II offers investors the untouched beauty of the Mediterranean in perfect harmony, with a visionary perspective that brings happiness and peace.",
         "propertyType": "Flat",
-        "propertyStatus": "For Sale",
+        "propertyStatus": ["For Sale"],
         "city": "iskele",
         "zipCode": "90044",
-        "neighborhood": "Kalecik",
+        "neighborhood": ["Kalecik"],
         "street":"Kalecik Mevkii, Boğaz, İskele",
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress" : "Kalecik Mevkii, Boğaz, İskele",
         "featured": true,
         "pricePound": {
@@ -69,10 +66,7 @@
         "zipCode": "60604",
         "neighborhood": ["Long Beach"],
         "street": ["Long Beach, İskele, Cyprus"],
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "location" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress": "Long Beach, İskele, Cyprus", 
         
         "featured": true, 
@@ -121,30 +115,27 @@
     },
     {
         "id": 5,
-        "title": "La Isla Villas 4+1", 
-        "desc": "La Isla Villas 4+1 Villa For Sale You can contact our experienced sales team for detailed information.",
-        "propertyType": "Villa",
-        "propertyStatus": "For Sale",
+        "title": "Aquamarine 2+1", 
+        "desc": "Birinci sınıf malzeme ve işçilikle inşa edilen bu eşsiz projede, günlük hayatınız için gerekli olacak şehir hayatı ve tatil hayatını bir arada yaşayacaksınız.",
+        "propertyType": "Flat",
+        "propertyStatus": ["For Sale"],
         "city": "İskele",
         "zipCode": "98104",
-        "neighborhood": "Ötüken",
-        "street": " Ötüken, İskele, Cyprus",
-        "location" : {
-            "lat": 33.954220,
-            "lng": -118.293730
-        },
-        "formattedAddress" : "Ötüken, İskele, Cyprus", 
+        "neighborhood": ["Long Beach"],
+        "street": " Long Beach, İskele, Cyprus",
+        "location" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
+        "formattedAddress" : "Long Beach, İskele, Cyprus", 
         "featured": false, 
         "pricePound": {
             "sale": 850000,
             "rent": null
         },
       
-        "bedrooms": 4,
-        "bathrooms": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
         "garages": 1,
         "area": {
-            "value": 217,
+            "value": 84,
             "unit": "m²"
         },
         "yearBuilt": 2022,
@@ -152,24 +143,24 @@
         "ratingsValue": 560,
         "gallery": [            
             {
-                "small": "assets/images/props/house-1/1-small.webp",
-                "medium": "assets/images/props/house-1/1-small.webp",
-                "big": "assets/images/props/house-1/1-small.webp"
+                "small": "assets/images/props/house-1/1-small.jpg",
+                "medium": "assets/images/props/house-1/1-small.jpg",
+                "big": "assets/images/props/house-1/1-small.jpg"
             },         
             {
-                "small": "assets/images/props/house-1/2-small.webp",
-                "medium": "assets/images/props/house-1/2-small.webp",
-                "big": "assets/images/props/house-1/2-small.webp"
+                "small": "assets/images/props/house-1/2-small.jpg",
+                "medium": "assets/images/props/house-1/2-small.jpg",
+                "big": "assets/images/props/house-1/2-small.jpg"
             },
             {
-                "small": "assets/images/props/house-1/3-small.webp",
-                "medium":  "assets/images/props/house-1/3-small.webp",
-                "big":  "assets/images/props/house-1/3-small.webp"
+                "small": "assets/images/props/house-1/3-small.jpg",
+                "medium":  "assets/images/props/house-1/3-small.jpg",
+                "big":  "assets/images/props/house-1/3-small.jpg"
             },
             {
-                "small": "assets/images/props/house-1/4-small.webp",
-                "medium": "assets/images/props/house-1/4-small.webp",
-                "big": "assets/images/props/house-1/4-small.webp"
+                "small": "assets/images/props/house-1/4-small.jpg",
+                "medium": "assets/images/props/house-1/4-small.jpg",
+                "big": "assets/images/props/house-1/4-small.jpg"
             }
         ],
         "published": "2011-05-12 18:20:00",
@@ -178,17 +169,15 @@
     },
     {
         "id": 6,
-        "title": "Querencia Penthouse", 
-        "desc": "While Querencia's unique penthouse apartments with pools offer an ultra-luxurious experience in Residence life, their large terraces with uninterrupted panoramic sea views make you feel the freedom of detached life to the fullest.",
+        "title": "2+1 Infinity", 
+        "desc": "14.870 m2 yeşil alan ve rekreasyon alanları dikkate alınmış ve site sakinlerinin, yeşil alanlar,  barbekü alanları, parkları, oyun alanları, spor alanları, yüzme havuzları, spa, bisiklet yolu, ve çok daha fazla olanaklardan yararlanmaları için büyük bir planlama yapılmıştır. Proje, sunrise, riverpark, mountain, river corner ve sunset olarak 5 farklı bloktan oluşmaktadır.",
         "propertyType": "Apartment",
         "propertyStatus": ["For Sale"],
         "city": "İskele",
         "zipCode": "10033",
-        "street": "Long beach",
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "neighborhood": ["Long Beach"],
+        "street": ["Long Beach, İskele, Cyprus"],
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress" : "Long Beach, İskele, Cyprus",
       
         "featured": false, 
@@ -197,40 +186,49 @@
             "rent": null
         },
       
-        "bedrooms": 4,
-        "bathrooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
        
         "area": {
-            "value": 413,
+            "value": 130,
             "unit": "m²"
         },
         "yearBuilt": 2022,
         "ratingsCount": 3,
         "ratingsValue": 280,
-
-        "gallery": [         
-            {
-                "small": "assets/images/props/flat-1/1-small.webp",
-                "medium": "assets/images/props/flat-1/1-small.webp",
-                "big": "assets/images/props/flat-1/1-small.webp"
-            },
-            {
-                "small": "assets/images/props/flat-1/2-small.webp",
-                "medium": "assets/images/props/flat-1/2-small.webp",
-                "big": "assets/images/props/flat-1/2-small.webp"
-            },
-            {
-                "small": "assets/images/props/flat-1/3-small.webp",
-                "medium": "assets/images/props/flat-1/3-small.webp",
-                "big": "assets/images/props/flat-1/3-small.webp"
-            },
-            {
-                "small": "assets/images/props/flat-1/3-small.webp",
-                "medium": "assets/images/props/flat-1/3-small.webp",
-                "big": "assets/images/props/flat-1/3-small.webp"
-            }
+    
+        "gallery": [  {
+            "small": "assets/images/props/flat-1/1-small.jpg",
+            "medium": "assets/images/props/flat-1/1-small.jpg",
+            "big": "assets/images/props/flat-1/1-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/2-small.jpg",
+            "medium": "assets/images/props/flat-1/2-small.jpg",
+            "big": "assets/images/props/flat-1/2-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/3-small.jpg",
+            "medium": "assets/images/props/flat-1/3-small.jpg",
+            "big": "assets/images/props/flat-1/3-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/3-small.jpg",
+            "medium": "assets/images/props/flat-1/3-small.jpg",
+            "big": "assets/images/props/flat-1/3-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/4-small.jpg",
+            "medium": "assets/images/props/flat-1/4-small.jpg",
+            "big": "assets/images/props/flat-1/4-small.jpg"
+        },
+        {
+            "small": "assets/images/props/flat-1/-small.jpg",
+            "medium": "assets/images/props/flat-1/5-small.jpg",
+            "big": "assets/images/props/flat-1/5-small.jpg"
+        }
         ],
-  
+    
         "published": "2012-08-12 17:17:30",
         "lastUpdate": "2019-05-20 14:20:00",
         "views": 322
@@ -240,15 +238,12 @@
         "title": "Four Seasons Life II 2+1", 
         "desc": "Our New Project, Four Seasons Life II offers investors the untouched beauty of the Mediterranean in perfect harmony, with a visionary perspective that brings happiness and peace.",
         "propertyType": "Flat",
-        "propertyStatus": "For Sale",
+        "propertyStatus": ["For Sale"],
         "city": "iskele",
         "zipCode": "90044",
-        "neighborhood": "Kalecik",
+        "neighborhood": ["Kalecik"],
         "street":"Kalecik Mevkii, Boğaz, İskele",
-        "location" : {
-            "lat": 35.251014,
-            "lng": 33.900354
-        },
+        "location" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26067.06014460812!2d33.8817285394641!3d35.24673833904557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfb1428ce5747b%3A0x4f2d2d868450b220!2sLong%20Beach%2C%20Yeni%20%C4%B0skele!5e0!3m2!1str!2s!4v1678370877540!5m2!1str!2s",
         "formattedAddress" : "Kalecik Mevkii, Boğaz, İskele",
         "featured": true,
         "pricePound": {

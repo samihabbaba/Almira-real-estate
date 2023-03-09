@@ -22,10 +22,10 @@
                         <span *ngIf="currentSlide.pricePound.sale">{{currentSlide.pricePound.sale | currency : 'GBP' : 'symbol' : '1.0'}}</span>
                         <span *ngIf="currentSlide.pricePound.rent">{{currentSlide.pricePound.rent | currency : 'GBP' : 'symbol' : '1.0'}} /month</span>
                     </span>
-                    <span *ngIf="settings.currency == 'EUR'" class="price">
+                    <!-- <span *ngIf="settings.currency == 'EUR'" class="price">
                         <span *ngIf="currentSlide.priceEuro.sale">{{currentSlide.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>
                         <span *ngIf="currentSlide.priceEuro.rent">{{currentSlide.priceEuro.rent | currency : 'EUR' : 'symbol' : '1.0'}} /month</span>
-                    </span>
+                    </span> -->
                 </button>                  
             </mat-card>  
         </div> 
