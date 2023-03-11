@@ -134,7 +134,8 @@ export class AppService {
     return [ 
       { id: 1, name: 'Office' },
       { id: 2, name: 'House' },
-      { id: 3, name: 'Apartment' }
+      { id: 3, name: 'Apartment' },
+      { id: 4, name: 'Land' }
     ]
   }
 
@@ -142,36 +143,33 @@ export class AppService {
     return [ 
       { id: 1, name: 'For Sale' },
       { id: 2, name: 'For Rent' },
-      { id: 3, name: 'Open House' },
-      { id: 4, name: 'No Fees' },
-      { id: 5, name: 'Hot Offer' },
-      { id: 6, name: 'Sold' }
+      { id: 3, name: 'New' },
+      { id: 4, name: 'Holiday Home' },
     ]
   }
 
-  public getCities(){
+  public getCountries(){
     return [ 
-      { id: 1, name: 'New York' },
-      { id: 2, name: 'Chicago' },
-      { id: 3, name: 'Los Angeles' },
-      { id: 4, name: 'Seattle' } 
+      { id: 2, name: 'Cyprus' },
+      { id: 3, name: 'United Kingdom' },
+      { id: 4, name: 'Turkey' },
     ]
   }
 
-  public getNeighborhoods(){
+  public getCity(){
     return [      
-      { id: 1, name: 'Astoria', cityId: 1 },
-      { id: 2, name: 'Midtown', cityId: 1 },
-      { id: 3, name: 'Chinatown', cityId: 1 }, 
-      { id: 4, name: 'Austin', cityId: 2 },
-      { id: 5, name: 'Englewood', cityId: 2 },
-      { id: 6, name: 'Riverdale', cityId: 2 },      
-      { id: 7, name: 'Hollywood', cityId: 3 },
-      { id: 8, name: 'Sherman Oaks', cityId: 3 },
-      { id: 9, name: 'Highland Park', cityId: 3 },
-      { id: 10, name: 'Belltown', cityId: 4 },
-      { id: 11, name: 'Queen Anne', cityId: 4 },
-      { id: 12, name: 'Green Lake', cityId: 4 }      
+      { id: 1, name: 'Girne', cityId: 2 },
+      { id: 2, name: 'Lefkoşa', cityId: 2 },
+      { id: 3, name: 'Gazimağusa', cityId: 2 }, 
+      { id: 4, name: 'İskele', cityId: 2 },
+      { id: 5, name: 'Güzelyurt', cityId: 2},
+      { id: 6, name: 'Lefke', cityId:2 },      
+      { id: 7, name: 'London', cityId: 3 },
+      { id: 8, name: 'İzmir', cityId: 4 },
+      { id: 9, name: 'İstanbul', cityId: 4 },
+      { id: 10, name: 'Ankara', cityId: 4 },
+      { id: 11, name: 'Antalya', cityId: 4 },
+      {id:12, name:'Please select a country', cityId:1}    
     ]
   }
 
@@ -208,9 +206,6 @@ export class AppService {
     return [ 
       { id: 1, name: 'Air Conditioning', selected: false },
       { id: 2, name: 'Barbeque', selected: false },
-      { id: 3, name: 'Dryer', selected: false },
-      { id: 4, name: 'Microwave', selected: false }, 
-      { id: 5, name: 'Refrigerator', selected: false },
       { id: 6, name: 'TV Cable', selected: false },
       { id: 7, name: 'Sauna', selected: false },
       { id: 8, name: 'WiFi', selected: false },
@@ -573,7 +568,7 @@ export class AppService {
             desc: 'Phasellus sed metus leo. Donec laoreet, lacus ut suscipit convallis, erat enim eleifend nulla, at sagittis enim urna et lacus.',            
             organization: 'HouseKey',
             email: 'andy.w@housekey.com',
-            phone: '(+44) 7375 110555',
+            phone: '(+44) 7375 110555 / (+44) 1992 638783',
             social: {
               facebook: '',
               twitter: '',
@@ -647,17 +642,16 @@ export class AppService {
   public getClients(){
     return [  
         { name: 'döveç', image: 'assets/images/clients/döveç.png' },
-        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
-        { name: 'akol', image: 'assets/images/clients/akol.png' },
-        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
-        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
-        { name: 'akol', image: 'assets/images/clients/akol.png' },
-        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
-        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
-        { name: 'akol', image: 'assets/images/clients/akol.png' },
-        { name: 'döveç', image: 'assets/images/clients/döveç.png' },
-        { name: 'noyanlar', image: 'assets/images/clients/noyanlar.png' },  
-        { name: 'akol', image: 'assets/images/clients/akol.png' },
+        { name: 'cyprosun', image: 'assets/images/clients/cyprosun.png' },  
+        { name: 'cyprus', image: 'assets/images/clients/cyprus.png' },
+        { name: 'dörter', image: 'assets/images/clients/dörter.png' },
+        { name: 'triotime', image: 'assets/images/clients/triotime.png' }, 
+        { name: 'emtan', image: 'assets/images/clients/emtan.png' }, 
+        { name: 'ardem', image: 'assets/images/clients/ardem.png' }, 
+        { name: 'almira', image: 'assets/images/clients/ALMIRA LOGO.png' }, 
+      
+        
+
     ];
   }
 

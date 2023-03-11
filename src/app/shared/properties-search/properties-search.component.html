@@ -29,7 +29,7 @@
             <div fxLayout="row wrap" fxLayoutAlign="space-between center">
                 <div fxFlex="45">
                     <mat-form-field [appearance]="getAppearance()" [floatLabel]="getFloatLabel()">
-                        <mat-label>{{(variant == 1) ? 'Price' : 'Price From'}}</mat-label>
+                        <mat-label>{{(variant == 1) ? 'Price (£)' : 'Price From'}}</mat-label>
                         <input matInput autocomplete="off" placeholder="From" formControlName="from" type="text" onlyNumber>                  
                     </mat-form-field>
                 </div>
@@ -51,8 +51,8 @@
 
             <div fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-2">                         
                 <mat-form-field [appearance]="getAppearance()" [floatLabel]="getFloatLabel()">
-                    <mat-label>City</mat-label>
-                    <mat-select placeholder="Select City..." formControlName="city" (selectionChange)="onSelectCity()">
+                    <mat-label>Country</mat-label>
+                    <mat-select placeholder="Select Country..." formControlName="city" (selectionChange)="onSelectCity()">
                         <mat-option *ngFor="let city of cities" [value]="city">
                             {{city.name}}
                         </mat-option>
@@ -60,17 +60,12 @@
                 </mat-form-field>
             </div>
 
-            <div fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-2">
-                <mat-form-field [appearance]="getAppearance()" [floatLabel]="getFloatLabel()">
-                    <mat-label>Zip Code</mat-label>
-                    <input matInput placeholder="exp. 98104" autocomplete="off" formControlName="zipCode">                  
-                </mat-form-field>
-            </div>
+          
 
             <div fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-2">                         
                 <mat-form-field [appearance]="getAppearance()" [floatLabel]="getFloatLabel()">
-                    <mat-label>Neighborhood</mat-label>
-                    <mat-select placeholder="Select Neighborhood..." formControlName="neighborhood" multiple (selectionChange)="onSelectNeighborhood()">
+                    <mat-label>City</mat-label>
+                    <mat-select placeholder="Select city..." formControlName="neighborhood" multiple (selectionChange)="onSelectNeighborhood()">
                         <mat-option *ngFor="let neighborhood of neighborhoods | filterNeighborhoods: form.get('city').value?.id" [value]="neighborhood">
                             {{neighborhood.name}}
                         </mat-option>
@@ -78,16 +73,7 @@
                 </mat-form-field>
             </div>
 
-            <div fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-2">                         
-                <mat-form-field [appearance]="getAppearance()" [floatLabel]="getFloatLabel()">
-                    <mat-label>Street</mat-label>
-                    <mat-select placeholder="Select Street..." formControlName="street" multiple>
-                        <mat-option *ngFor="let street of streets | filterStreets : { neighborhoods:form.get('neighborhood').value, cityId:form.get('city').value?.id } " [value]="street">
-                            {{street.name}}
-                        </mat-option>
-                    </mat-select> 
-                </mat-form-field>
-            </div>
+          
     
             <div fxFlex="100" fxFlex.gt-sm="33.3" fxFlex.sm="50" class="p-2" formGroupName="bedrooms">
     

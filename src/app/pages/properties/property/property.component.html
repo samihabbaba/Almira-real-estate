@@ -195,10 +195,7 @@
                             <span *ngIf="property?.priceEuro.sale">{{property?.priceEuro.sale | currency : 'EUR' : 'symbol' : '1.0'}}</span>
                             <span *ngIf="property?.priceEuro.rent">{{property?.priceEuro.rent | currency : 'EUR' : 'symbol' : '1.0'}} /month</span>
                         </h2> -->
-            <app-rating
-              [ratingsCount]="property?.ratingsCount"
-              [ratingsValue]="property?.ratingsValue"
-            ></app-rating>
+         
           </div>
           <button
             *ngIf="!sidenavOpen"
@@ -451,7 +448,7 @@
                             </mat-expansion-panel> 
                         </mat-accordion>                         
                     </mat-card-content>
-                </mat-card> 
+                </mat-card>  -->
 
                 <mat-card *ngIf="property" class="mt-3"> 
                     <mat-card-header fxLayoutAlign="center center"> 
@@ -467,7 +464,7 @@
                             <div [innerHtml]="embedVideo" class="videoWrapper"></div>                                    
                         </div>                             
                     </mat-card-content>
-                </mat-card>                 -->
+                </mat-card> 
 
         <!-- 
                 <app-comments *ngIf="property" [propertyId]="property.id"></app-comments>   -->

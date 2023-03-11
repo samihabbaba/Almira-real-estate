@@ -56,7 +56,6 @@
                             <span *ngIf="property.priceEuro.rent">{{property.priceEuro.rent | currency : 'EUR' : 'symbol' : '1.0'}} /month</span>
                         </h3> -->
                     </div>
-                    <app-rating [ratingsCount]="property.ratingsCount" [ratingsValue]="property.ratingsValue"></app-rating>
                 </div>
 
                 <div *ngIf="viewType=='list' && fullWidthPage" fxShow="false" fxShow.gt-sm class="mt-3"> 

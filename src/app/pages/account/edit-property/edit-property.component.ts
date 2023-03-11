@@ -36,8 +36,8 @@ export class EditPropertyComponent implements OnInit {
     this.features = this.appService.getFeatures();
     this.propertyTypes = this.appService.getPropertyTypes();
     this.propertyStatuses = this.appService.getPropertyStatuses();
-    this.cities = this.appService.getCities();
-    this.neighborhoods = this.appService.getNeighborhoods();
+    this.cities = this.appService.getCountries();
+    this.neighborhoods = this.appService.getCity();
     this.streets = this.appService.getStreets();   
 
     this.submitForm = this.fb.group({
