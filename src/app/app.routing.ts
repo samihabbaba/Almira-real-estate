@@ -12,6 +12,7 @@ export const routes: Routes = [
             //{ path: '', redirectTo: '/landing', pathMatch: 'full' },
             { path: '', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
             { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
+            { path: 'neyire-ozgoker', loadChildren: () => import('./pages/neyire-ozgoker/neyire-ozgoker.module').then(m => m.NeyireOzgokerModule) },
             { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
             { path: 'properties', loadChildren: () => import('./pages/properties/properties.module').then(m => m.PropertiesModule) },
             { path: 'agents', loadChildren: () => import('./pages/agents/agents.module').then(m => m.AgentsModule) },

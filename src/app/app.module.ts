@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-
+import { NgxVcardModule } from "ngx-vcard";
 import { NgProgressModule } from 'ngx-progressbar';
 import { NgProgressHttpModule } from 'ngx-progressbar/http';
 import { AgmCoreModule } from '@agm/core';
@@ -67,6 +67,7 @@ import { LockScreenComponent } from './pages/lock-screen/lock-screen.component';
     BrowserModule.withServerTransition({ appId: 'serverApp' }), 
     BrowserAnimationsModule, 
     FormsModule, 
+    NgxVcardModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAO7Mg2Cs1qzo_3jkKkZAKY6jtwIlm41-I',

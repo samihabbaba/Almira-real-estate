@@ -26,9 +26,13 @@ export class PagesComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.shouldDisplay()
     this.toolbarTypeOption = this.settings.toolbar;    
     this.headerTypeOption = this.settings.header; 
     this.searchPanelVariantOption = this.settings.searchPanelVariant;
+  }
+  shouldDisplay() {
+    return this.router.url !== '/neyire-ozgoker';
   }
   
   public changeTheme(theme){
