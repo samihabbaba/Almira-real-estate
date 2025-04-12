@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "almira-real-estate"
-  }
+    "default": "almira-real-estate",
+    "y": "almira-fd67b"
+  },
+  "targets": {},
+  "etags": {}
 }

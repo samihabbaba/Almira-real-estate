@@ -2,8 +2,8 @@ import { Menu } from './menu.model';
 
 export const horizontalMenuItems = [ 
     new Menu (1, 'NAV.HOME', '/', null, null, false, 0),
-    new Menu (2, 'NAV.PROPERTIES', '/properties', null, null, false, 0), 
-    new Menu (40, 'NAV.PAGES', null, null, null, true, 0),
+    // new Menu (2, 'NAV.PROPERTIES', '/properties', null, null, false, 0), 
+    // new Menu (40, 'NAV.PAGES', null, null, null, true, 0),
     // new Menu (41, 'NAV.AGENTS', '/agents', null, null, false, 40), 
     // new Menu (42, 'NAV.AGENT', '/agents/1', null, null, false, 40),
     new Menu (43, ' AGENT LOGIN', '/login', null, null, false, 40), 
@@ -24,8 +24,8 @@ export const horizontalMenuItems = [
 
 export const verticalMenuItems = [ 
     new Menu (1, 'NAV.HOME', '/', null, null, false, 0), 
-    new Menu (2, 'NAV.PROPERTIES', '/properties', null, null, false, 0), 
-    new Menu (40, 'NAV.PAGES', null, null, null, true, 0),
+    // new Menu (2, 'NAV.PROPERTIES', '/properties', null, null, false, 0), 
+    // new Menu (40, 'NAV.PAGES', null, null, null, true, 0),
     // new Menu (41, 'NAV.AGENTS', '/agents', null, null, false, 40), 
     // new Menu (42, 'NAV.AGENT', '/agents/1', null, null, false, 40),
     new Menu (43, 'AGENT LOGIN', '/login', null, null, false, 40), 

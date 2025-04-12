@@ -1,36 +1,44 @@
-<app-header-image *ngIf="settings.header == 'image'" 
-                [backgroundImage]="'assets/images/others/homepage.jpg'"
-                [bgImageAnimate]="true"
-                [contentOffsetToTop]="true"
-                [title]="'Find your house key'"
-                [desc]="'Exclusive International Real Estate'"
-                [isHomePage]="true"
-                [fullscreen]="false">
-</app-header-image> 
+<app-header-image
+  *ngIf="settings.header == 'image'"
+  [backgroundImage]="'assets/images/others/homepage.jpg'"
+  [bgImageAnimate]="true"
+  [contentOffsetToTop]="true"
+  [title]="'Find your house key'"
+  [desc]="'Exclusive International Real Estate'"
+  [isHomePage]="true"
+  [fullscreen]="false"
+>
+</app-header-image>
 
-<app-header-carousel *ngIf="settings.header == 'carousel'" 
-                    [slides]="slides" 
-                    [contentOffsetToTop]="true"
-                    [fullscreen]="false">
+<app-header-carousel
+  *ngIf="settings.header == 'carousel'"
+  [slides]="slides"
+  [contentOffsetToTop]="true"
+  [fullscreen]="false"
+>
 </app-header-carousel>
 
-<app-header-map *ngIf="settings.header == 'map'" 
-                [locations]="locations" 
-                [contentOffsetToTop]="true"
-                [fullscreen]="false">
+<app-header-map
+  *ngIf="settings.header == 'map'"
+  [locations]="locations"
+  [contentOffsetToTop]="true"
+  [fullscreen]="false"
+>
 </app-header-map>
 
-<app-header-video *ngIf="settings.header == 'video'" 
-                [backgroundVideo]="'http://themeseason.com/data/videos/video-1.mp4'" 
-                [contentOffsetToTop]="true"
-                [title]="'Find your house key'"
-                [desc]="'Exclusive International Real Estate'"
-                [isHomePage]="true"
-                [fullscreen]="true">
+<app-header-video
+  *ngIf="settings.header == 'video'"
+  [backgroundVideo]="'http://themeseason.com/data/videos/video-1.mp4'"
+  [contentOffsetToTop]="true"
+  [title]="'Find your house key'"
+  [desc]="'Exclusive International Real Estate'"
+  [isHomePage]="true"
+  [fullscreen]="true"
+>
 </app-header-video>
 
 <div class="px-3">
-    <div class="theme-container">
+  <!-- <div class="theme-container">
                 
         <mat-card class="main-content-header">
 
@@ -44,13 +52,21 @@
             
         </mat-card>  
     
-    </div>
-    
-    <div class="theme-container"> 
+    </div> -->
 
-        <div fxLayout="row wrap" class="properties-wrapper">
-            
-            <div fxFlex="100" fxLayoutAlign="start start" class="p-2"> 
+  <div class="theme-container">
+    <!-- Coming Soon Section -->
+    <div fxFlex="100" fxLayoutAlign="center center" class="p-6">
+      <mat-card class="text-center" style="padding: 3rem; max-width: 700px">
+        <mat-card-content>
+          <h1 class="mat-display-1" style="font-size: 3rem">🚧 Coming Soon</h1>
+          <p class="mat-body-1" style="font-size: 1.25rem">
+            This section is under development. Stay tuned for updates!
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <!-- <div fxFlex="100" fxLayoutAlign="start start" class="p-2"> 
                 <mat-chip-list [ngClass]="(settings.rtl) ? 'ml-2' : 'mr-2'">
                     <mat-chip selected disableRipple="true" color="warn" class="uppercase ws-nowrap">
                         {{ pagination?.total }} found
@@ -81,28 +97,22 @@
                         {{message}}
                     </mat-chip> 
                 </mat-chip-list> 
-            </div>
-
-        </div>
-
-        
-    </div>
+            </div> -->
+  </div>
 </div>
-
-
 
 <app-mission></app-mission>
 
 <app-our-services></app-our-services>
+<!-- 
+<app-hot-offer-today [propertyId]="4"></app-hot-offer-today>
 
-
-
-<app-hot-offer-today [propertyId]="4"></app-hot-offer-today> 
-
-<app-featured-properties [properties]="featuredProperties"></app-featured-properties>
+<app-featured-properties
+  [properties]="featuredProperties"
+></app-featured-properties> -->
 
 <!-- <app-our-agents></app-our-agents> -->
-      
-<app-clients></app-clients>
+
+<!-- <app-clients></app-clients> -->
 
 <app-get-in-touch></app-get-in-touch>
